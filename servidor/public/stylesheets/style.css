@@ -1,0 +1,20 @@
+body {
+  background-image: url(../images/daisies.jpg);
+}
+
+.usuarios {
+  display: flex;
+  justify-content: center;
+  font-family: "Mukta", sans-serif;
+  font-size: 60px;
+  color: #AAFFE5;
+}
+
+.nuevo {
+  background-color: #F1DB4B;
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
