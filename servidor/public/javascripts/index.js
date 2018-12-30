@@ -7,10 +7,10 @@ $.ajax(
     for (let i = 0; i < data.length; i++) {
         $('#container').append(`
             <div id='user-${data[i]}' class='div-users'>
-            <p>${data[i].name}</p>
-            <p>${data[i].surname}</p>
-            <p>${data[i].phone}</p>
-            <p>${data[i].mail}</p>
+            <p>Nombre: ${data[i].name}</p>
+            <p>Apellido: ${data[i].surname}</p>
+            <p>Telefono: ${data[i].phone}</p>
+            <p>Email: ${data[i].mail}</p>
             <button class="btn" id="put"><a href="/users/edit?id=${data[i].id}">Editar</a></button>
             <button onclick="borrar(${data[i].id})" class="btn" id="borrar">Borrar</button>
             </div>`)

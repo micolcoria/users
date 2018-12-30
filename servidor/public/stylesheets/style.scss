@@ -2,20 +2,83 @@ body {
     background-image: url(../images/daisies.jpg)
 }
 
-.usuarios {
+.usuarios, #new-title, #edit-user {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     font-size: 60px;
     color: #AAFFE5;
 }
 
+#the-new {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
 .nuevo {
-    // background-color: #E0CA3C;
-    // background-color: #DACC3E;
-    // background-color: #EDFF71;
+    width: 500px;
+    text-align: center;
+    cursor: pointer;
     background-color: #F1DB4B;
-    color: white;
+    color: #090C9B;
     border: 3px solid transparent;
     border-radius: 3px;
+    margin: 5px;
 }
+
+#container {
+    font-family: 'Aleo', serif;
+    // color: #EDFF71;
+    // background-color: #392759;
+    color: #E6CCBE;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background: rgba(54, 98, 155, 0.9);
+    margin: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
+}
+
+#put, #borrar {
+    background-color: #DACC3E;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+}
+
+#filtrear {
+    display: flex;
+    justify-content: center;
+    #filtrearbtn {
+        background-color: #F1DB4B;
+        color: #090C9B;
+        border: 3px solid transparent;
+        border-radius: 3px;
+        margin-left: 5px;
+    }
+}
+
+//pagina /new
+
+#form {
+    text-align: center;
+    #new {
+        background-color: #F1DB4B;
+        color: #090C9B;
+        border: 3px solid transparent;
+        border-radius: 3px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+}
+

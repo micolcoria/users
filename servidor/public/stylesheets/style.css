@@ -2,19 +2,80 @@ body {
   background-image: url(../images/daisies.jpg);
 }
 
-.usuarios {
+.usuarios, #new-title, #edit-user {
+  margin-top: 5px;
   display: flex;
   justify-content: center;
-  font-family: "Mukta", sans-serif;
+  font-family: "Kaushan Script", cursive;
   font-size: 60px;
   color: #AAFFE5;
 }
 
+#the-new {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
 .nuevo {
+  width: 500px;
+  text-align: center;
+  cursor: pointer;
   background-color: #F1DB4B;
-  color: white;
+  color: #090C9B;
   border: 3px solid transparent;
   border-radius: 3px;
+  margin: 5px;
+}
+
+#container {
+  font-family: "Aleo", serif;
+  color: #E6CCBE;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  background: rgba(54, 98, 155, 0.9);
+  margin: 10px;
+  border: 3px solid whitesmoke;
+  border-radius: 3px;
+}
+
+#put, #borrar {
+  background-color: #DACC3E;
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+#put a, #borrar a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#filtrear {
+  display: flex;
+  justify-content: center;
+}
+#filtrear #filtrearbtn {
+  background-color: #F1DB4B;
+  color: #090C9B;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+#form {
+  text-align: center;
+}
+#form #new {
+  background-color: #F1DB4B;
+  color: #090C9B;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
